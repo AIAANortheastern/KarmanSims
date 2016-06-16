@@ -6,7 +6,7 @@
       <Length>22</Length>
       <Diameter>4.06</Diameter>
       <Shape>LV-Haack</Shape>
-      <BluntRadius>0</BluntRadius>
+      <BluntRadius>0.25</BluntRadius>
       <Location>0</Location>
       <Color>Black</Color>
     </NoseCone>
@@ -43,7 +43,7 @@
       <Fin>
         <Count>3</Count>
         <Chord>10</Chord>
-        <Span>7</Span>
+        <Span>5</Span>
         <SweepDistance>7</SweepDistance>
         <TipChord>2</TipChord>
         <Thickness>0.125</Thickness>
@@ -73,7 +73,7 @@
       <Fin>
         <Count>3</Count>
         <Chord>18</Chord>
-        <Span>10</Span>
+        <Span>7</Span>
         <SweepDistance>12</SweepDistance>
         <TipChord>3</TipChord>
         <Thickness>0.125</Thickness>
@@ -123,13 +123,13 @@
       <SustainerEngine>O3400-IM-P  (CTI)</SustainerEngine>
       <SustainerLaunchWt>63.5</SustainerLaunchWt>
       <SustainerNozzleDiameter>4</SustainerNozzleDiameter>
-      <SustainerCG>59</SustainerCG>
+      <SustainerCG>70.8</SustainerCG>
       <SustainerIgnitionDelay>5</SustainerIgnitionDelay>
       <Booster1Engine>P-7700  (CTI)</Booster1Engine>
-      <Booster1LaunchWt>204</Booster1LaunchWt>
+      <Booster1LaunchWt>207</Booster1LaunchWt>
       <Booster1SeparationDelay>1</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
-      <Booster1CG>126</Booster1CG>
+      <Booster1CG>128</Booster1CG>
       <Booster1NozzleDiameter>6</Booster1NozzleDiameter>
       <IncludeBooster1>True</IncludeBooster1>
       <Booster2LaunchWt>0</Booster2LaunchWt>
@@ -138,9 +138,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>171.5296</TimetoApogee>
-      <MaxAltitude>425379.7</MaxAltitude>
-      <MaxVelocity>5204.256</MaxVelocity>
+      <TimetoApogee>178.086</TimetoApogee>
+      <MaxAltitude>459512.3</MaxAltitude>
+      <MaxVelocity>5369.5</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
@@ -148,13 +148,13 @@
       <SustainerEngine>O3400-IM-P  (CTI)</SustainerEngine>
       <SustainerLaunchWt>66</SustainerLaunchWt>
       <SustainerNozzleDiameter>4</SustainerNozzleDiameter>
-      <SustainerCG>59</SustainerCG>
+      <SustainerCG>67.5</SustainerCG>
       <SustainerIgnitionDelay>5</SustainerIgnitionDelay>
       <Booster1Engine>P-7700  (CTI)</Booster1Engine>
-      <Booster1LaunchWt>210</Booster1LaunchWt>
+      <Booster1LaunchWt>213</Booster1LaunchWt>
       <Booster1SeparationDelay>1</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
-      <Booster1CG>125</Booster1CG>
+      <Booster1CG>128</Booster1CG>
       <Booster1NozzleDiameter>6</Booster1NozzleDiameter>
       <IncludeBooster1>True</IncludeBooster1>
       <Booster2LaunchWt>0</Booster2LaunchWt>
@@ -163,9 +163,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>164.8133</TimetoApogee>
-      <MaxAltitude>391572.6</MaxAltitude>
-      <MaxVelocity>4982.859</MaxVelocity>
+      <TimetoApogee>170.0904</TimetoApogee>
+      <MaxAltitude>417817.3</MaxAltitude>
+      <MaxVelocity>5118.555</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
