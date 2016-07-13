@@ -1,0 +1,58 @@
+Custom P8000
+35lb propellent, 53.5lb loaded
+
+Fin dimensions:
+sustainer:
+root: 10
+tip: 2
+height: 7
+sweep: 7
+——
+Booster:
+root: 18
+tip: 3
+height: 10
+sweep: 12
+————————————
+
+
+CF body
+6 Kg ebay
+Sustainer cg: 58
+loaded wt: 63.6
+ig delay: 5
+——
+Spe delay 1
+combined cg: 126
+Total Loaded wt: 204
+
+431k, 131Km
+max v: 1600 f/s (Mach 5.4)
+separation @ 15,000 , 4.5km
+——————————
+AL body
+6 kg ebay
+Sustainer cg: 59
+loaded wt: 66
+ig delay: 5
+——
+Spe delay 1
+combined cg: 125
+Total Loaded wt: 210
+
+391,000 ft, 119km
+max V: 1524 m/s (Mach 5.15)
+separation @ 15,000 , 4.5km
+
+
+================
+CF: 4kg ebay and recovery
+160km
+———
+AL: 4kg ebay and recovery
+136km
+———————
+CF DIMENSIONS
+Walls: .06”
+OD: 4.03
+ID: 3.9
