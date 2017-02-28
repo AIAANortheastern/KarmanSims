@@ -104,11 +104,11 @@
     <Surface>Smooth Paint</Surface>
     <CP>0</CP>
     <ModifiedBarrowman>True</ModifiedBarrowman>
-    <Turbulence>True</Turbulence>
+    <Turbulence>False</Turbulence>
     <SustainerNozzle>0.75</SustainerNozzle>
-    <Booster1Nozzle>0</Booster1Nozzle>
+    <Booster1Nozzle>1.25</Booster1Nozzle>
     <Booster2Nozzle>0</Booster2Nozzle>
-    <UseBooster1>False</UseBooster1>
+    <UseBooster1>True</UseBooster1>
     <UseBooster2>False</UseBooster2>
     <Comments />
   </RocketDesign>
@@ -155,9 +155,34 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>20.44031</TimetoApogee>
-      <MaxAltitude>6158.03</MaxAltitude>
-      <MaxVelocity>650.4142</MaxVelocity>
+      <TimetoApogee>20.96032</TimetoApogee>
+      <MaxAltitude>6406.749</MaxAltitude>
+      <MaxVelocity>658.2751</MaxVelocity>
+      <OptimumWt>0</OptimumWt>
+      <OptimumMaxAlt>0</OptimumMaxAlt>
+    </Simulation>
+    <Simulation>
+      <SustainerEngine>I435T  (AT)</SustainerEngine>
+      <SustainerLaunchWt>10.3</SustainerLaunchWt>
+      <SustainerNozzleDiameter>0.75</SustainerNozzleDiameter>
+      <SustainerCG>48.75</SustainerCG>
+      <SustainerIgnitionDelay>2</SustainerIgnitionDelay>
+      <Booster1Engine>L1050-BS-P  (CTI)</Booster1Engine>
+      <Booster1LaunchWt>38.7</Booster1LaunchWt>
+      <Booster1SeparationDelay>1</Booster1SeparationDelay>
+      <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
+      <Booster1CG>92.31</Booster1CG>
+      <Booster1NozzleDiameter>1.875</Booster1NozzleDiameter>
+      <IncludeBooster1>True</IncludeBooster1>
+      <Booster2LaunchWt>0</Booster2LaunchWt>
+      <Booster2Delay>0</Booster2Delay>
+      <Booster2CG>0</Booster2CG>
+      <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
+      <IncludeBooster2>False</IncludeBooster2>
+      <FlightTime>0</FlightTime>
+      <TimetoApogee>24.41037</TimetoApogee>
+      <MaxAltitude>8638.977</MaxAltitude>
+      <MaxVelocity>757.3384</MaxVelocity>
       <OptimumWt>0</OptimumWt>
       <OptimumMaxAlt>0</OptimumMaxAlt>
     </Simulation>
