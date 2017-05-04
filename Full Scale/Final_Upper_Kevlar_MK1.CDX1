@@ -50,8 +50,8 @@
         <LERadius>0</LERadius>
         <Location>14</Location>
         <AirfoilSection>Hexagonal</AirfoilSection>
-        <FX1>0.25</FX1>
-        <FX3>0.25</FX3>
+        <FX1>0.5</FX1>
+        <FX3>0.5</FX3>
       </Fin>
     </FinCan>
     <Booster>
