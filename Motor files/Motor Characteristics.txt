@@ -1,0 +1,24 @@
+Current motor: P8000
+Labled 777033-O150DT-IM in OR
+75158NS
+6.95s burn
+Loaded wt: 53.5 kg
+Empty wt: 18.5kg
+Length: 1.5m, 4.92 ft
+Diam: 150mm
+
+Thrust profile, rough:
+23kn, 0-2s
+7hn, 2-7s
+
+O3400
+21062-O3400-IM
+21062Ns
+6.14s burn
+Loaded wt: 16.84kg
+Empty wt: 5.57kg
+Prop wt: 11.27kg
+
+Thrust curve, rough:
+4600N, 0-4s
+Steady decline from 4 - 6.2s
