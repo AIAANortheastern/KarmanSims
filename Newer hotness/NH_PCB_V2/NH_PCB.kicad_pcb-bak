@@ -2,11 +2,11 @@
 
   (general
     (links 31)
-    (no_connects 30)
-    (area 112.69 36.144999 189.280001 81.47)
+    (no_connects 31)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 7)
-    (tracks 4)
+    (tracks 0)
     (zones 0)
     (modules 10)
     (nets 90)
@@ -280,7 +280,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 58765D06) (tstamp 59A14B44)
-    (at 158.115 76.835)
+    (at 156.845 76.835)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /595A3B64)
@@ -986,10 +986,5 @@
   (gr_line (start 189.23 80.645) (end 125.73 80.645) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 189.23 36.195) (end 189.23 80.645) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 125.73 36.195) (end 189.23 36.195) (angle 90) (layer Edge.Cuts) (width 0.1))
-
-  (segment (start 158.115 76.835) (end 154.94 76.835) (width 0.25) (layer F.Cu) (net 1) (status 10))
-  (segment (start 153.035 66.04) (end 150.495 63.5) (width 0.25) (layer F.Cu) (net 1) (tstamp 59A14FFE))
-  (segment (start 153.035 74.93) (end 153.035 66.04) (width 0.25) (layer F.Cu) (net 1) (tstamp 59A14FFC))
-  (segment (start 154.94 76.835) (end 153.035 74.93) (width 0.25) (layer F.Cu) (net 1) (tstamp 59A14FFA))
 
 )
