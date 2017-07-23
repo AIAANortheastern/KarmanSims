@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/AMP/Desktop/AIAA/Karman/KarmanSims/Newer hotness/NH_PCB_V3/NH_PCB.sch")
-    (date "Tuesday, July 11, 2017 'AMt' 11:52:42 AM")
+    (date "Thursday, July 13, 2017 'AMt' 09:25:19 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J4)
       (value BARREL_JACK)
-      (footprint Connectors:BARREL_JACK)
+      (footprint custom_master:BARREL_JACK_W_Header_Holes)
       (libsource (lib conn) (part BARREL_JACK))
       (sheetpath (names /) (tstamps /))
       (tstamp 595A3659))
@@ -282,14 +282,14 @@
         (pin (num 85) (name 56) (type BiDi))
         (pin (num 86) (name 57) (type BiDi)))))
   (libraries
-    (library (logical teensy)
-      (uri /Users/AMP/Documents/Kicad_libs/teensy.lib))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical adafruit_BOBs)
       (uri /Users/AMP/Documents/Kicad_libs/adafruit_BOBs.lib))
     (library (logical master_custom)
       (uri /Users/AMP/Documents/Kicad_libs/master_custom.lib))
+    (library (logical teensy)
+      (uri /Users/AMP/Documents/Kicad_libs/teensy.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
