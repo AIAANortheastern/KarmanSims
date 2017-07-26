@@ -184,12 +184,12 @@ $EndComp
 $Comp
 L TCA-ADA-269 TC1
 U 1 1 596244C7
-P 4600 3600
-F 0 "TC1" H 4550 3450 60  0000 C CNN
-F 1 "TCA-ADA-269" H 4600 4350 60  0000 C CNN
-F 2 "adafruit_BOBs:TCA_BOB_ADA269" H 4600 3600 60  0001 C CNN
-F 3 "" H 4600 3600 60  0001 C CNN
-	1    4600 3600
+P 4600 3700
+F 0 "TC1" H 4550 3550 60  0000 C CNN
+F 1 "TCA-ADA-269" H 4600 4450 60  0000 C CNN
+F 2 "adafruit_BOBs:TCA_BOB_ADA269" H 4600 3700 60  0001 C CNN
+F 3 "" H 4600 3700 60  0001 C CNN
+	1    4600 3700
 	0    -1   1    0   
 $EndComp
 Text Label 5150 2500 2    60   ~ 0
@@ -248,7 +248,7 @@ NoConn ~ 8600 2150
 NoConn ~ 8600 3350
 NoConn ~ 8600 3450
 NoConn ~ 8600 3550
-NoConn ~ 6600 5550
+NoConn ~ 6600 3150
 NoConn ~ 6600 5250
 NoConn ~ 6600 5050
 NoConn ~ 6600 4250
@@ -281,10 +281,10 @@ F 3 "" H 4100 4650 50  0001 C CNN
 	1    4100 4650
 	1    0    0    -1  
 $EndComp
-Text Label 5350 3000 0    60   ~ 0
+Text Label 5350 3100 0    60   ~ 0
 3.3V
 NoConn ~ 4000 2150
-NoConn ~ 4000 3200
+NoConn ~ 4000 3300
 Text Label 8850 4550 0    60   ~ 0
 3.3V
 $Comp
@@ -339,11 +339,11 @@ Wire Wire Line
 Wire Wire Line
 	8950 5650 8600 5650
 Wire Wire Line
-	4200 2150 4200 3200
+	4200 2150 4200 3300
 Wire Wire Line
-	4300 2150 4300 3200
+	4300 2150 4300 3300
 Wire Wire Line
-	4500 2150 4500 3200
+	4500 2150 4500 3300
 Connection ~ 4200 2400
 Wire Wire Line
 	6600 2750 4300 2750
@@ -366,7 +366,7 @@ Connection ~ 4500 2900
 Wire Wire Line
 	4400 2350 4400 2150
 Wire Wire Line
-	4400 2500 4400 3200
+	4400 2500 4400 3300
 Wire Wire Line
 	6150 4450 6600 4450
 Wire Wire Line
@@ -388,11 +388,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 2400 4200 2400
 Wire Wire Line
-	4100 2150 4100 3200
+	4100 2150 4100 3300
 Wire Wire Line
 	6250 3950 6150 3950
 Wire Wire Line
-	3550 3000 6250 3000
+	3550 3100 6250 3100
 Wire Wire Line
 	9150 4550 8600 4550
 Text Label 1200 2800 2    60   ~ 0
@@ -413,7 +413,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2166/2166datasheet.pdf" H 1650 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 3000 6250 3950
+	6250 3100 6250 3950
 $Comp
 L CONN_01X03 J3
 U 1 1 596AF251
@@ -588,7 +588,7 @@ GND_
 Text Label 2800 2500 0    60   ~ 0
 3.3V
 Wire Wire Line
-	3550 3000 3550 2500
+	3550 3100 3550 2500
 Connection ~ 3550 2500
 $Comp
 L CONN_01X05 J2
@@ -618,15 +618,15 @@ VUSB is 5V from USB, normally disconnected\nConnect Jumper 1 to power teensy w/o
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 596CF3AC
-P 3800 3000
-F 0 "#FLG05" H 3800 3075 50  0001 C CNN
-F 1 "PWR_FLAG" H 3800 3150 50  0000 C CNN
-F 2 "" H 3800 3000 50  0001 C CNN
-F 3 "" H 3800 3000 50  0001 C CNN
-	1    3800 3000
+P 3800 3100
+F 0 "#FLG05" H 3800 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 3250 50  0000 C CNN
+F 2 "" H 3800 3100 50  0001 C CNN
+F 3 "" H 3800 3100 50  0001 C CNN
+	1    3800 3100
 	1    0    0    -1  
 $EndComp
-Connection ~ 3800 3000
+Connection ~ 3800 3100
 $Comp
 L PWR_FLAG #FLG06
 U 1 1 596CF47F
@@ -691,21 +691,19 @@ Wire Wire Line
 Connection ~ 3050 4950
 Connection ~ 4100 4950
 Text Label 4250 6600 2    60   ~ 0
-Xbee_1
+GPS-FIX
 Text Label 4750 6600 0    60   ~ 0
-Xbee_2
+CLK
 Text Label 4250 6700 2    60   ~ 0
-Xbee_3
+Xbee_SS
 Text Label 4750 6700 0    60   ~ 0
-Xbee_4
+Xbee_ATTN
 Text Label 6600 2950 2    60   ~ 0
-Xbee_1
+GPS-FIX
 Text Label 6600 3050 2    60   ~ 0
-Xbee_2
-Text Label 6600 3150 2    60   ~ 0
-Xbee_3
-Text Label 6600 3250 2    60   ~ 0
-Xbee_4
+Xbee_ATTN
+Text Label 6600 5550 2    60   ~ 0
+Xbee_SS
 $Comp
 L L7805AC REG1
 U 1 1 596E2290
@@ -769,4 +767,17 @@ Wire Wire Line
 	6450 5150 6450 3850
 Wire Wire Line
 	6450 3850 6600 3850
+NoConn ~ 6600 3250
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 59767C02
+P 6250 5150
+F 0 "#FLG09" H 6250 5225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 5300 50  0000 C CNN
+F 2 "" H 6250 5150 50  0001 C CNN
+F 3 "" H 6250 5150 50  0001 C CNN
+	1    6250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 5150
 $EndSCHEMATC
