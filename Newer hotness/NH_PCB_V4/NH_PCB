@@ -1,102 +1,35 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:teensy
-LIBS:adafruit_BOBs
-EELAYER 25 0
-EELAYER END
-$Descr A4 11693 8268
-encoding utf-8
-Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
-$EndDescr
-$Comp
-L Teensy3.2 U?
-U 1 1 59597309
-P 4900 3250
-F 0 "U?" H 4900 4750 60  0000 C CNN
-F 1 "Teensy3.2" H 4900 1750 60  0000 C CNN
-F 2 "" H 4900 2450 60  0000 C CNN
-F 3 "" H 4900 2450 60  0000 C CNN
-	1    4900 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X05 J?
-U 1 1 5959735F
-P 4200 5900
-F 0 "J?" H 4200 6200 50  0000 C CNN
-F 1 "CONN_02X05" H 4200 5600 50  0000 C CNN
-F 2 "" H 4200 4700 50  0001 C CNN
-F 3 "" H 4200 4700 50  0001 C CNN
-	1    4200 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Micro_SD_BOB_A254 B?
-U 1 1 595A3597
-P 6900 4750
-F 0 "B?" H 6700 5450 60  0000 C CNN
-F 1 "Micro_SD_BOB_A254" H 6700 4550 60  0000 C CNN
-F 2 "" H 6900 4750 60  0001 C CNN
-F 3 "" H 6900 4750 60  0001 C CNN
-	1    6900 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BARREL_JACK J?
-U 1 1 595A3659
-P 6100 5600
-F 0 "J?" H 6100 5795 50  0000 C CNN
-F 1 "BARREL_JACK" H 6100 5445 50  0000 C CNN
-F 2 "" H 6100 5600 50  0001 C CNN
-F 3 "" H 6100 5600 50  0001 C CNN
-	1    6100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X03 J?
-U 1 1 595A37A4
-P 5500 6100
-F 0 "J?" H 5500 6300 50  0000 C CNN
-F 1 "CONN_02X03" H 5500 5900 50  0000 C CNN
-F 2 "" H 5500 4900 50  0001 C CNN
-F 3 "" H 5500 4900 50  0001 C CNN
-	1    5500 6100
-	1    0    0    -1  
-$EndComp
-$EndSCHEMATC
+Source,/Users/AMP/Desktop/AIAA/Karman/KarmanSims/Newer hotness/NH_PCB_V4/NH_PCB.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,Monday, July 31, 2017 'PMt' 07:41:00 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+J4,BARREL_JACK,conn,BARREL_JACK
+J1,Xbee-Conn,conn,CONN_02X05
+U2,ACCL_BOB_A1413,adafruit_BOBs,ACCL_BOB_A1413
+J5,SPI_debug,conn,CONN_01X03
+J6,I2C_Debug,conn,CONN_01X02
+U3,10DOF_A1604,adafruit_BOBs,10DOF_A1604
+TC2,TCA-ADA-269,adafruit_BOBs,TCA-ADA-269
+TC1,TCA-ADA-269,adafruit_BOBs,TCA-ADA-269
+U1,Teensy3.6,teensy,Teensy3.5
+D2,D_Schottky,device,D_Schottky
+D1,D_Schottky,device,D_Schottky
+JP1,VUSB_Jump,device,Jumper
+Reg1,L4931,master_custom,L4931
+J3,Pow_byp,conn,CONN_01X03
+C2,10µf,device,C
+JP2,33_Jump,device,Jumper
+D4,LED,device,LED
+R1,180,device,R
+D3,D_Schottky,device,D_Schottky
+J2,STRAT_CONN,conn,CONN_01X05
+C3,100nF,device,C
+C1,10µF,device,C
+REG1,L7805AC,master_custom,L7805AC
+BT1,Battery_Cell,device,Battery_Cell
+BZ1,Buzzer,device,Buzzer
