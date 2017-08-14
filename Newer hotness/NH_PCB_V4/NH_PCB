@@ -1,0 +1,35 @@
+Source,/Users/AMP/Desktop/AIAA/Karman/KarmanSims/Newer hotness/NH_PCB_V4/NH_PCB.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,Monday, July 31, 2017 'PMt' 07:41:00 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+J4,BARREL_JACK,conn,BARREL_JACK
+J1,Xbee-Conn,conn,CONN_02X05
+U2,ACCL_BOB_A1413,adafruit_BOBs,ACCL_BOB_A1413
+J5,SPI_debug,conn,CONN_01X03
+J6,I2C_Debug,conn,CONN_01X02
+U3,10DOF_A1604,adafruit_BOBs,10DOF_A1604
+TC2,TCA-ADA-269,adafruit_BOBs,TCA-ADA-269
+TC1,TCA-ADA-269,adafruit_BOBs,TCA-ADA-269
+U1,Teensy3.6,teensy,Teensy3.5
+D2,D_Schottky,device,D_Schottky
+D1,D_Schottky,device,D_Schottky
+JP1,VUSB_Jump,device,Jumper
+Reg1,L4931,master_custom,L4931
+J3,Pow_byp,conn,CONN_01X03
+C2,10µf,device,C
+JP2,33_Jump,device,Jumper
+D4,LED,device,LED
+R1,180,device,R
+D3,D_Schottky,device,D_Schottky
+J2,STRAT_CONN,conn,CONN_01X05
+C3,100nF,device,C
+C1,10µF,device,C
+REG1,L7805AC,master_custom,L7805AC
+BT1,Battery_Cell,device,Battery_Cell
+BZ1,Buzzer,device,Buzzer
