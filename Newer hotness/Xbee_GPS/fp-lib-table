@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name custom_footprints_master)(type KiCad)(uri /Users/AMP/Documents/Kicad_libs/custom_footprints_master.pretty)(options "")(descr ""))
+)

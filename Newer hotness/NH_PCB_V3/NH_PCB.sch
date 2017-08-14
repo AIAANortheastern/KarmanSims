@@ -1,0 +1,517 @@
+EESchema Schematic File Version 2
+LIBS:NH_PCB-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy
+LIBS:adafruit_BOBs
+LIBS:master_custom
+LIBS:NH_PCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BARREL_JACK J4
+U 1 1 595A3659
+P 6450 1650
+F 0 "J4" H 6450 1845 50  0000 C CNN
+F 1 "BARREL_JACK" H 6450 1495 50  0000 C CNN
+F 2 "custom_master:BARREL_JACK_W_Header_Holes" H 6450 1650 50  0001 C CNN
+F 3 "" H 6450 1650 50  0001 C CNN
+	1    6450 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X03 J1
+U 1 1 595A37A4
+P 1500 4550
+F 0 "J1" H 1500 4750 50  0000 C CNN
+F 1 "CONN_02X03" H 1500 4350 50  0000 C CNN
+F 2 "Connectors:IDC_Header_Straight_6pins" H 1500 3350 50  0001 C CNN
+F 3 "" H 1500 3350 50  0001 C CNN
+	1    1500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 595A3B64
+P 4700 1650
+F 0 "C1" H 4725 1750 50  0000 L CNN
+F 1 ".1µf" H 4725 1550 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4738 1500 50  0001 C CNN
+F 3 "" H 4700 1650 50  0001 C CNN
+	1    4700 1650
+	-1   0    0    -1  
+$EndComp
+Text Label 4150 1550 2    60   ~ 0
+5V
+Text Label 4250 1800 2    60   ~ 0
+GND_
+Text Notes 4150 1150 0    60   ~ 0
+POWER IN - 5V RREGULATED
+Text Notes 1050 5050 0    60   ~ 0
+BLACK - 1
+Text Notes 1300 4900 0    60   ~ 0
+GPS-BOB
+Text Notes 1350 4250 0    60   ~ 0
+BLACK
+Text Label 1250 4450 2    60   ~ 0
+TX-GPS
+Text Label 1750 4450 0    60   ~ 0
+GND_
+Text Label 1250 4550 2    60   ~ 0
+TX-XB
+Text Label 1750 4550 0    60   ~ 0
+RX-XB
+Text Label 1250 4650 2    60   ~ 0
+RX-GPS
+Text Label 1750 4650 0    60   ~ 0
+CTS-XB
+$Comp
+L ACCL_BOB_A1413 U2
+U 1 1 595E746A
+P 8150 6050
+F 0 "U2" H 8100 6800 60  0000 C CNN
+F 1 "ACCL_BOB_A1413" H 8150 5850 60  0000 C CNN
+F 2 "adafruit_BOBs:Accel_BOB_A1413" H 8150 6050 60  0001 C CNN
+F 3 "" H 8150 6050 60  0001 C CNN
+	1    8150 6050
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 7750 5750
+Text Label 7450 5150 0    60   ~ 0
+5V
+Text Label 7650 5200 0    60   ~ 0
+GND_
+Text Notes 3950 2650 0    60   ~ 0
+STRAT
+Text Label 4700 2250 0    60   ~ 0
+TX_STRAT
+Text Label 5050 2550 2    60   ~ 0
+CTS-XB
+Text Label 4000 3050 2    60   ~ 0
+CS_TS2
+Text Label 5050 2950 2    60   ~ 0
+TX-XB
+Text Label 5050 3050 2    60   ~ 0
+RX-XB
+Text Label 5050 3150 2    60   ~ 0
+TX-GPS
+Text Label 5050 3250 2    60   ~ 0
+RX-GPS
+Text Label 4350 3450 2    60   ~ 0
+DIN
+Text Label 4600 3350 2    60   ~ 0
+DOUT
+Text Label 5050 6050 2    60   ~ 0
+CLK
+Text Label 7050 6250 0    60   ~ 0
+SDA
+Text Label 7050 6150 0    60   ~ 0
+SCL
+$Comp
+L CONN_01X02 J3
+U 1 1 595E9E99
+P 2700 1600
+F 0 "J3" H 2700 1750 50  0000 C CNN
+F 1 "POW_BYP" V 2800 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2700 1600 50  0001 C CNN
+F 3 "" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J5
+U 1 1 5961A470
+P 8200 2600
+F 0 "J5" H 8200 2750 50  0000 C CNN
+F 1 "SPI_debug" V 8300 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8200 2600 50  0001 C CNN
+F 3 "" H 8200 2600 50  0001 C CNN
+	1    8200 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J6
+U 1 1 5961A545
+P 8200 3200
+F 0 "J6" H 8200 3350 50  0000 C CNN
+F 1 "I2C_Debug" V 8300 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8200 3200 50  0001 C CNN
+F 3 "" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	-1   0    0    -1  
+$EndComp
+Text Notes 7800 2050 0    60   ~ 0
+Debug headers
+Text Label 8400 2550 0    60   ~ 0
+DIN
+Text Label 8400 2650 0    60   ~ 0
+Dout
+Text Label 8400 3150 0    60   ~ 0
+SCL
+Text Label 8400 3250 0    60   ~ 0
+SDA
+Text Notes 4750 1950 0    60   ~ 0
+2.7 - 10V in
+$Comp
+L 10DOF_A1604 U3
+U 1 1 5962443D
+P 4050 5700
+F 0 "U3" H 4000 7000 60  0000 C CNN
+F 1 "10DOF_A1604" H 4000 5650 60  0000 C CNN
+F 2 "adafruit_BOBs:10DOF_BOB_ADA16014" H 4050 5700 60  0001 C CNN
+F 3 "" H 4050 5700 60  0001 C CNN
+	1    4050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCA-ADA-269 TC2
+U 1 1 5962447A
+P 3450 2450
+F 0 "TC2" H 3400 2300 60  0000 C CNN
+F 1 "TCA-ADA-269" H 3450 3200 60  0000 C CNN
+F 2 "adafruit_BOBs:TCA_BOB_ADA269" H 3450 2450 60  0001 C CNN
+F 3 "" H 3450 2450 60  0001 C CNN
+	1    3450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TCA-ADA-269 TC1
+U 1 1 596244C7
+P 3450 4200
+F 0 "TC1" H 3400 4050 60  0000 C CNN
+F 1 "TCA-ADA-269" H 3450 4950 60  0000 C CNN
+F 2 "adafruit_BOBs:TCA_BOB_ADA269" H 3450 4200 60  0001 C CNN
+F 3 "" H 3450 4200 60  0001 C CNN
+	1    3450 4200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5750 1550 6150 1550
+Wire Wire Line
+	4500 1500 5750 1500
+Wire Wire Line
+	4750 1750 6150 1750
+Wire Wire Line
+	4700 1800 4750 1750
+Connection ~ 4700 1500
+Wire Wire Line
+	4250 1800 4700 1800
+Wire Wire Line
+	7750 5850 7050 5850
+Wire Wire Line
+	7750 5950 7050 5950
+Wire Wire Line
+	7450 5450 7450 1300
+Connection ~ 7450 5450
+Wire Wire Line
+	7500 5550 7500 5650
+Wire Wire Line
+	7500 5650 7750 5650
+Wire Wire Line
+	7550 5650 7550 5200
+Wire Wire Line
+	7550 5200 7650 5200
+Connection ~ 7550 5650
+Wire Wire Line
+	7750 6050 7400 6050
+Wire Wire Line
+	7400 6050 7400 6350
+Wire Wire Line
+	7250 5450 7250 5250
+Wire Wire Line
+	7250 5250 7050 5250
+Connection ~ 7250 5450
+Wire Wire Line
+	4650 2350 4350 2350
+Wire Wire Line
+	4650 2000 4650 2350
+Wire Wire Line
+	4400 2000 4650 2000
+Connection ~ 4650 2150
+Wire Wire Line
+	7400 6350 7050 6350
+Wire Wire Line
+	2900 1550 4500 1550
+Wire Wire Line
+	4500 1550 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	2900 1650 4400 1650
+Wire Wire Line
+	4400 1650 4400 2000
+Connection ~ 4400 1800
+Wire Wire Line
+	5750 1500 5750 1550
+Wire Wire Line
+	2850 2850 2850 3800
+Wire Wire Line
+	3050 2850 3050 3800
+Wire Wire Line
+	3150 2850 3150 3800
+Wire Wire Line
+	3350 2850 3350 3800
+Wire Wire Line
+	2850 3150 2450 3150
+Wire Wire Line
+	2450 3150 2450 1900
+Wire Wire Line
+	2450 1900 3100 1900
+Wire Wire Line
+	3100 1900 3100 1550
+Connection ~ 3100 1550
+Connection ~ 2850 3150
+Wire Wire Line
+	3050 3100 2500 3100
+Wire Wire Line
+	2500 3100 2500 1950
+Wire Wire Line
+	2500 1950 3200 1950
+Wire Wire Line
+	3200 1950 3200 1650
+Connection ~ 3200 1650
+Connection ~ 3050 3100
+Wire Wire Line
+	5050 3350 4600 3350
+Wire Wire Line
+	5050 3450 3150 3450
+Connection ~ 3150 3450
+Text Label 4400 3200 2    60   ~ 0
+CS-TC1
+Wire Wire Line
+	3250 3200 4600 3200
+Wire Wire Line
+	4600 3200 4600 2850
+Wire Wire Line
+	4600 2850 5050 2850
+Wire Wire Line
+	3250 3050 4100 3050
+Wire Wire Line
+	4100 3050 4100 2750
+Wire Wire Line
+	4100 2750 5050 2750
+Text Label 4500 4850 0    60   ~ 0
+SCL
+Text Label 4500 4950 0    60   ~ 0
+SDA
+Text Label 4500 4550 0    60   ~ 0
+5V
+Text Label 4500 4750 0    60   ~ 0
+GND_
+Wire Wire Line
+	3350 3600 3750 3600
+Connection ~ 3350 3600
+Text Label 3750 3600 0    60   ~ 0
+CLK
+Wire Wire Line
+	3250 3050 3250 2850
+Wire Wire Line
+	3250 3200 3250 3800
+$Comp
+L Teensy3.5 U1
+U 1 1 595E6F00
+P 6050 4250
+F 0 "U1" H 6050 6550 60  0000 C CNN
+F 1 "Teensy3.5" H 6050 1950 60  0000 C CNN
+F 2 "Teensy:Teensy35_36" H 6050 4250 60  0001 C CNN
+F 3 "" H 6050 4250 60  0000 C CNN
+	1    6050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5150 5050 5150
+Wire Wire Line
+	4500 5050 5050 5050
+Wire Wire Line
+	5050 5250 4500 5250
+Wire Wire Line
+	4500 5350 5050 5350
+Wire Wire Line
+	5050 5450 4500 5450
+NoConn ~ 2950 2850
+NoConn ~ 2950 3800
+NoConn ~ 4500 4650
+NoConn ~ 5050 2350
+NoConn ~ 5050 2450
+NoConn ~ 6150 1650
+NoConn ~ 5050 3550
+NoConn ~ 5050 4450
+NoConn ~ 5050 4350
+NoConn ~ 5050 3950
+NoConn ~ 5050 4150
+NoConn ~ 5050 3750
+NoConn ~ 5050 2650
+NoConn ~ 5050 4050
+NoConn ~ 5050 3650
+NoConn ~ 5050 3850
+NoConn ~ 5050 4250
+NoConn ~ 5050 4850
+NoConn ~ 7050 2950
+NoConn ~ 7050 3850
+NoConn ~ 7050 3250
+NoConn ~ 7050 3050
+NoConn ~ 7050 3150
+NoConn ~ 7050 3650
+NoConn ~ 7050 3950
+NoConn ~ 7050 3350
+NoConn ~ 7050 3750
+NoConn ~ 7050 3450
+NoConn ~ 7050 3550
+NoConn ~ 5050 4550
+NoConn ~ 5050 4650
+NoConn ~ 5050 4750
+NoConn ~ 7050 2750
+NoConn ~ 7050 2450
+NoConn ~ 7050 2550
+NoConn ~ 7050 2250
+NoConn ~ 7050 2350
+NoConn ~ 7050 2150
+NoConn ~ 7050 2650
+NoConn ~ 7500 3150
+NoConn ~ 7050 2850
+NoConn ~ 7050 4050
+NoConn ~ 7050 4150
+NoConn ~ 7050 4250
+NoConn ~ 5050 6250
+NoConn ~ 5050 5950
+NoConn ~ 5050 5750
+NoConn ~ 5050 4950
+NoConn ~ 5050 6150
+NoConn ~ 5050 5850
+NoConn ~ 5050 5550
+NoConn ~ 5050 5650
+NoConn ~ 5050 6350
+NoConn ~ 7050 4750
+NoConn ~ 7050 4950
+NoConn ~ 7050 4550
+NoConn ~ 7050 5350
+NoConn ~ 7050 4850
+NoConn ~ 7050 5050
+NoConn ~ 7050 4450
+NoConn ~ 7050 4350
+NoConn ~ 7050 4650
+NoConn ~ 7050 5150
+NoConn ~ 7050 5750
+NoConn ~ 7050 6050
+NoConn ~ 7050 5650
+NoConn ~ 7750 5550
+Wire Wire Line
+	6000 1550 6000 1300
+Wire Wire Line
+	6000 1300 7450 1300
+Connection ~ 6000 1550
+Wire Wire Line
+	6100 1750 6100 1900
+Wire Wire Line
+	6100 1900 7600 1900
+Wire Wire Line
+	7600 1900 7600 5200
+Connection ~ 7600 5200
+Connection ~ 6100 1750
+Wire Wire Line
+	7050 5450 7750 5450
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5964E87C
+P 5700 1500
+F 0 "#FLG01" H 5700 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 5700 1650 50  0000 C CNN
+F 2 "" H 5700 1500 50  0001 C CNN
+F 3 "" H 5700 1500 50  0001 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5964E8B4
+P 5650 1750
+F 0 "#PWR02" H 5650 1500 50  0001 C CNN
+F 1 "GND" H 5650 1600 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 1500
+Connection ~ 5650 1750
+Wire Wire Line
+	4650 2150 5050 2150
+Wire Wire Line
+	7050 5550 7500 5550
+$Comp
+L GND #PWR03
+U 1 1 5964EB0E
+P 7300 5550
+F 0 "#PWR03" H 7300 5300 50  0001 C CNN
+F 1 "GND" H 7300 5400 50  0000 C CNN
+F 2 "" H 7300 5550 50  0001 C CNN
+F 3 "" H 7300 5550 50  0001 C CNN
+	1    7300 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 5550
+$Comp
+L GND #PWR04
+U 1 1 5964EB95
+P 4650 2350
+F 0 "#PWR04" H 4650 2100 50  0001 C CNN
+F 1 "GND" H 4650 2200 50  0000 C CNN
+F 2 "" H 4650 2350 50  0001 C CNN
+F 3 "" H 4650 2350 50  0001 C CNN
+	1    4650 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 2350
+Wire Wire Line
+	4350 2250 5050 2250
+$Comp
+L CONN_2_gnd J2
+U 1 1 5964FEBC
+P 4150 2350
+F 0 "J2" H 4150 2550 50  0000 C CNN
+F 1 "CONN_2_gnd" V 4250 2350 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 4150 2350 50  0001 C CNN
+F 3 "" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4350 2450
+$EndSCHEMATC
